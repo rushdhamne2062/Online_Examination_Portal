@@ -1,0 +1,104 @@
+
+:root{
+    --primaryColor: #0076de;
+    --whiteColor: #fff;
+    --blackColor: #333;
+    --greyColor: #f6f8fa;
+    --labelColor: #64b1f5;
+    --yellowColor: #ffd723;
+    --regiFormColor:#9ec3d9;
+    --regitextColor:#d13636;
+}
+#menuLogo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+#adminDashdiv1{
+	margin: 0px 0px 0px 400px;
+}
+#administratorName{
+	margin: -40px 0px 0px 70px;
+}
+#logoutbtn{
+  margin: -50px 0px 0px 0px;
+}
+.slideshow-container
+    {
+      width: 1200px;
+      height: 550px;
+      margin: 50px 0px 0px 320px;
+      background: rgba(242, 242, 32, 0.73);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/*      backdrop-filter: blur(6.5px);*/
+      -webkit-backdrop-filter: blur(6.5px);
+    }
+    
+    .questNo
+    {
+      color: var(--regitextColor);
+      font-size: 20px;
+      padding-top: 10px;
+      margin: 0px 0px 0px 0px;
+    }
+    #pagi1
+    { background-color: white;
+      color: black;
+      border: 1px solid;
+      margin: 0px 0px 0px 0px;
+    }
+    #pagi1:hover
+    {
+      opacity: 0.7;
+      color: var(--whiteColor);
+      background-color: var(--yellowColor);
+      
+    }
+    #con1{
+      display:block;
+    }
+
+ #con2 ,#con3 ,#con4, #con5{
+      display: none;
+    }
+    #offcanvasNavbar{
+/*      background-color: dodgerblue;*/
+      width: 300px;
+    }
+    #usertable{
+      width: 1200px;
+      border: 1px solid;
+    }
+    #adduser{
+      margin: 20px 0px 10px 1050px;
+      width: 100px;
+    }
+    #addadmin{
+      margin: 20px 0px 10px 1050px;
+      width: 120px;
+    }
+    #updatebtn{
+      padding: 10px 10px 10px 10px;
+    }
+    #addquestion{
+      margin: 20px 0px 10px 1050px;
+      width: 150px;
+    }
